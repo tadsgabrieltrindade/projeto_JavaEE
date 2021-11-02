@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap')
+	;
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	background-color: #f7f7f7;
+}
+
+.container {
+	border: solid 0.5rem #018f7a;
+	text-align: center;
+	padding: 2rem;
+	margin: 2em 6em 1em;
+	background: #e2f5f5;
+}
+
+a {
+	text-decoration: no	ne;
+}
+
+.Botao1 {
+	background-color: #1a98ff;
+	padding: 5px 10px 5px 10px;
+	border: solid 1px;
+	border-radius: 0.6rem;
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+h1 {
+	color: #00345D;
+}
+
+footer {
+	color: #000;
+	margin-left: 1rem;
+	text-align: center;
+}
+
+.footerLink:hover {
+	color: red;
+}
